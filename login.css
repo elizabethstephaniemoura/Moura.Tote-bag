@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 665px;
+    background-color: #d8d9de;
+    align-items: center;
+    font-family: Lucida Grande;
+
+    
+  }
+  
+  .login {
+    background-image: url(https://cdn.shopify.com/s/files/1/0079/7972/8956/products/Clouds_Rabbit_Totebag-5_720x.jpg?v=1584015074);
+    width: 350px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 3px solid black;
+  }
+  
+  .login h2 {
+    margin: 0 0 20px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .input-grup {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .input-grup input {
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .input-grup span {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0px;
+    text-transform: capitalize;
+    background-color: white;
+    transition: 0.5s;
+  }
+  
+  .input-grup input:focus ~ span,
+  .input-grup input:valid ~ span {
+    top: -12px;
+    left: 20px;
+    font-size: 12px;
+    background-color: white;
+    padding: 2px 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .input-grup input[type="submit"] {
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5s;
+  }
+  
+  .input-grup input[type="submit"]:hover {
+    width: 100%;
+  }
+  
+  .input-grup p{
+    color: white;
+  }
