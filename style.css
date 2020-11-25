@@ -1,0 +1,157 @@
+
+
+  .header {
+    text-align: center;
+    padding: 25px 0;
+    background-color:#f0f3f3;
+    transition: all 0,5s; /*untuk animasi yg berubah setiap saat fungsi hover*/                              
+  }
+  
+  .header:hover{
+    background-color:#d8d9de;
+  }
+  
+  .logo img{
+    width: 95px;
+    height: 60px;
+  
+  }
+
+  .logo h1{
+    font-family: 'Nerko One',
+    serif;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .menu a{
+    font-family: 'Kosugi',
+    sans-serif;
+    color: black;
+    letter-spacing: 2px;
+    margin: 20px;
+    
+  }
+
+  
+  .top-wrapper {
+    padding: 200px 0 255px 0;
+    background-image: url(https://cdn.shopify.com/s/files/1/0079/7972/8956/products/Clouds_Rabbit_Totebag-5_720x.jpg?v=1584015074);
+    background-size: cover;
+    color:white;
+    text-align: center;
+    
+  } 
+
+.top-wrapper h1 {
+    opacity: 50;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0,7;
+    margin-bottom: 10px;
+  }
+
+
+
+ .produk-quote {
+    background-color:#f0f3f3;
+    padding : 20px 0 10px;
+ }
+ .produk-quote h4{
+    text-align: center;
+    font-size: 30px;
+
+ }
+
+
+  .content {
+    overflow: hidden;
+    padding: 5% 0;
+    background-color:  #d8d9de;
+  }
+  .product-image{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    border: 10px black solid;
+    }
+  .product-image img{
+    width: 100%;
+  }
+  .product-description{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .product-description h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-size: 35px;
+  }
+  
+  .product-description h4{
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+  
+  }
+  .product-description p{
+    font-family: 'Kosugi', sans-serif;
+    line-height: 10px;
+    text-align: left;
+  }
+  
+  .button a{
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footer{
+     font-size: 12px;
+     text-align: center;
+     letter-spacing: 2px;
+     padding: 30px 0;
+     background-color: #f0f3f3;
+  } 
+
+  .footer img{
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  @media (max-width: 720px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 720px) and (max-width: 992px;){
+    .container {
+      width: 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
